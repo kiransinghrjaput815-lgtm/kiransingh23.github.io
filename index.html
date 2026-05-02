@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kiran Kumari Singh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fa;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .left {
+      flex: 2;
+      padding: 40px;
+      background: white;
+    }
+
+    .right {
+      flex: 1;
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right img {
+      width: 200px;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      color: #0077b6;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 25px;
+      border-bottom: 2px solid #0077b6;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .cert img {
+      width: 180px;
+      margin: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .cert img:hover {
+      transform: scale(1.05);
+    }
+
+    @media(max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .right {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="left">
+    <h1>Kiran Kumari Singh</h1>
+    <p><b>B.Tech Biotechnology Student</b></p>
+
+    <h2>About Me</h2>
+    <p>
+      I am a first-year Biotechnology student at Lovely Professional University.
+      I am passionate about science, innovation, and programming.
+    </p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Communication English (MOOC 2025)</li>
+      <li>Python Programming (2026)</li>
+    </ul>
+
+    <h2>Certificates & Achievements</h2>
+    <ul>
+      <li>International Bioinnovate Conference (2025)</li>
+      <li>Cognitia Hackathon Participant (2026)</li>
+    </ul>
+
+    <h2>My Certificates</h2>
+    <div class="cert">
+      <img src="bioinnovate.jpg">
+      <img src="python.jpg">
+      <img src="english.jpg">
+    </div>
+
+    <h2>Contact</h2>
+    <p>📞 9122700519</p>
+    <p>📧 skiran8963@gmail.com</p>
+  </div>
+
+  <div class="right">
+    <img src="photo.jpg" alt="Kiran Photo">
+  </div>
+
+</div>
+
+</body>
+</html>
