@@ -30,7 +30,7 @@ I am passionate about biotechnology, programming, and innovation.
 ---
 
 ## 🌐 Live Website
-👉 https://kiransingh23.github.io  
+👉 https://kiransinghrjaput815-lgtm.github.io/kiransingh23.github.io/  
 
 ---
 
